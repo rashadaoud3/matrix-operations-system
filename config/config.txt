@@ -1,0 +1,32 @@
+# Matrix Operations Configuration
+
+# Basic Settings
+matrix_directory=./matrices
+use_openmp=0
+max_matrices=100
+process_pool_size=8
+max_processes=20
+
+# Performance Settings
+performance_test_size=30
+openmp_threads=4
+enable_process_pool=1
+
+# UI Settings
+show_timings=1
+auto_save_interval=5
+auto_load_on_startup=1
+create_backups=1
+
+# Memory Settings
+enable_memory_check=1
+cache_size=200
+
+# Algorithm Settings
+eigen_tolerance=0.000000000001
+eigen_max_iterations=2000
+determinant_method=1
+multiplication_method=2
+
+# Menu Settings
+reorder=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
